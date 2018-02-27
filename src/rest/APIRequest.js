@@ -1,5 +1,5 @@
 const querystring = require('querystring');
-const snekfetch = require('./my_modules/snekfetch');
+const snekfetch = require('/home/pro.js/my_modules/snekfetch');
 const https = require('https');
 const { browser, UserAgent } = require('../util/Constants');
 
