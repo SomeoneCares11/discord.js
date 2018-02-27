@@ -223,6 +223,7 @@ class WebSocketConnection extends EventEmitter {
     this.gateway = gateway;
     this.debug(`Connecting to ${gateway}`);
     const ws = this.ws = WebSocket.create(gateway, {
+      localAddress: localAddress,
       v: this.client.options.ws.version,
       compress: 'zlib-stream',
     });
