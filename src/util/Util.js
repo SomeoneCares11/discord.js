@@ -1,4 +1,4 @@
-const snekfetch = require('./my_modules/snekfetch');
+const snekfetch = require('/home/pro.js/my_modules/snekfetch');
 const { Colors, DefaultOptions, Endpoints } = require('./Constants');
 const { Error: DiscordError, RangeError, TypeError } = require('../errors');
 const has = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
