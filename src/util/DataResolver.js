@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const snekfetch = require('snekfetch');
+const snekfetch = require('/home/pro.js/my_modules/snekfetch');
 const Util = require('../util/Util');
 const { Error: DiscordError, TypeError } = require('../errors');
 const { browser } = require('../util/Constants');
